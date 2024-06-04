@@ -1,0 +1,164 @@
+1_000
+
+compile
+
+Real Time (seconds):
+  Mean: 0.050
+  Median: 0.050
+  Stddev: 0.000
+User Time (seconds):
+  Mean: 0.047
+  Median: 0.050
+  Stddev: 0.005
+System Time (seconds):
+  Mean: 0.000
+  Median: 0.000
+  Stddev: 0.000
+Max Memory (KB):
+  Mean: 10813.60
+  Median: 10752.00
+  Stddev: 243.48
+
+
+solve
+
+Real Time (seconds):
+  Mean: 0.000
+  Median: 0.000
+  Stddev: 0.000
+User Time (seconds):
+  Mean: 0.000
+  Median: 0.000
+  Stddev: 0.000
+System Time (seconds):
+  Mean: 0.000
+  Median: 0.000
+  Stddev: 0.000
+Max Memory (KB):
+  Mean: 4222.40
+  Median: 4260.00
+  Stddev: 120.09
+
+
+10_000
+
+compile
+
+Real Time (seconds):
+  Mean: 0.210
+  Median: 0.210
+  Stddev: 0.000
+User Time (seconds):
+  Mean: 0.198
+  Median: 0.195
+  Stddev: 0.011
+System Time (seconds):
+  Mean: 0.012
+  Median: 0.010
+  Stddev: 0.010
+Max Memory (KB):
+  Mean: 33881.20
+  Median: 33852.00
+  Stddev: 141.79
+
+solve
+
+Real Time (seconds):
+  Mean: 0.000
+  Median: 0.000
+  Stddev: 0.000
+User Time (seconds):
+  Mean: 0.000
+  Median: 0.000
+  Stddev: 0.000
+System Time (seconds):
+  Mean: 0.000
+  Median: 0.000
+  Stddev: 0.000
+Max Memory (KB):
+  Mean: 4599.60
+  Median: 4624.00
+  Stddev: 119.70
+
+
+100_000
+
+compile
+
+Real Time (seconds):
+  Mean: 1.924
+  Median: 1.930
+  Stddev: 0.008
+User Time (seconds):
+  Mean: 1.816
+  Median: 1.820
+  Stddev: 0.020
+System Time (seconds):
+  Mean: 0.097
+  Median: 0.100
+  Stddev: 0.019
+Max Memory (KB):
+  Mean: 252266.80
+  Median: 252252.00
+  Stddev: 113.20
+
+solve
+
+Real Time (seconds):
+  Mean: 0.004
+  Median: 0.000
+  Stddev: 0.005
+User Time (seconds):
+  Mean: 0.003
+  Median: 0.000
+  Stddev: 0.005
+System Time (seconds):
+  Mean: 0.001
+  Median: 0.000
+  Stddev: 0.003
+Max Memory (KB):
+  Mean: 8854.40
+  Median: 8864.00
+  Stddev: 93.72
+
+
+1_000_000
+
+compile
+
+Real Time (seconds):
+  Mean: 20.470
+  Median: 20.435
+  Stddev: 0.140
+User Time (seconds):
+  Mean: 19.333
+  Median: 19.325
+  Stddev: 0.052
+System Time (seconds):
+  Mean: 0.982
+  Median: 0.960
+  Stddev: 0.051
+Max Memory (KB):
+  Mean: 2501676.80
+  Median: 2501666.00
+  Stddev: 132.33
+
+solve
+
+Real Time (seconds):
+  Mean: 0.076
+  Median: 0.075
+  Stddev: 0.007
+User Time (seconds):
+  Mean: 0.034
+  Median: 0.030
+  Stddev: 0.008
+System Time (seconds):
+  Mean: 0.032
+  Median: 0.030
+  Stddev: 0.006
+Max Memory (KB):
+  Mean: 51076.00
+  Median: 51054.00
+  Stddev: 100.61
+

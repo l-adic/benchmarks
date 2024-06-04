@@ -49,21 +49,21 @@ def run_benchmark(executable, runs=10):
 
     if real_times:
         print(f"Real Time (seconds):")
-        print(f"  Mean: {statistics.mean(real_times):.2f}")
-        print(f"  Median: {statistics.median(real_times):.2f}")
-        print(f"  Stddev: {statistics.stdev(real_times):.2f}")
+        print(f"  Mean: {statistics.mean(real_times):.3f}")
+        print(f"  Median: {statistics.median(real_times):.3f}")
+        print(f"  Stddev: {statistics.stdev(real_times):.3f}")
 
     if user_times:
         print(f"User Time (seconds):")
-        print(f"  Mean: {statistics.mean(user_times):.2f}")
-        print(f"  Median: {statistics.median(user_times):.2f}")
-        print(f"  Stddev: {statistics.stdev(user_times):.2f}")
+        print(f"  Mean: {statistics.mean(user_times):.3f}")
+        print(f"  Median: {statistics.median(user_times):.3f}")
+        print(f"  Stddev: {statistics.stdev(user_times):.3f}")
 
     if system_times:
         print(f"System Time (seconds):")
-        print(f"  Mean: {statistics.mean(system_times):.2f}")
-        print(f"  Median: {statistics.median(system_times):.2f}")
-        print(f"  Stddev: {statistics.stdev(system_times):.2f}")
+        print(f"  Mean: {statistics.mean(system_times):.3f}")
+        print(f"  Median: {statistics.median(system_times):.3f}")
+        print(f"  Stddev: {statistics.stdev(system_times):.3f}")
 
     if max_memories:
         print(f"Max Memory (KB):")

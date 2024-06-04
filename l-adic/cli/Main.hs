@@ -8,4 +8,4 @@ import Protolude
 import ZK.LargeMult (largeMult)
 
 main :: IO ()
-main = defaultMain "large-mult" $ largeMult @BN128 1_000_000
+main = defaultMain "large-mult" $ largeMult @BN128 100_000

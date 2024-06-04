@@ -1,0 +1,173 @@
+1_000
+
+compile 
+
+Real Time (seconds):
+  Mean: 0.004
+  Median: 0.000
+  Stddev: 0.005
+User Time (seconds):
+  Mean: 0.002
+  Median: 0.000
+  Stddev: 0.004
+System Time (seconds):
+  Mean: 0.000
+  Median: 0.000
+  Stddev: 0.000
+Max Memory (KB):
+  Mean: 16998.40
+  Median: 16998.00
+  Stddev: 91.12
+
+solve
+
+Real Time (seconds):
+  Mean: 0.001
+  Median: 0.000
+  Stddev: 0.003
+User Time (seconds):
+  Mean: 0.000
+  Median: 0.000
+  Stddev: 0.000
+System Time (seconds):
+  Mean: 0.001
+  Median: 0.000
+  Stddev: 0.003
+Max Memory (KB):
+  Mean: 15574.00
+  Median: 15554.00
+  Stddev: 90.81
+
+
+10_000
+
+compile
+
+Real Time (seconds):
+  Mean: 0.111
+  Median: 0.110
+  Stddev: 0.003
+User Time (seconds):
+  Mean: 0.090
+  Median: 0.090
+  Stddev: 0.007
+System Time (seconds):
+  Mean: 0.017
+  Median: 0.020
+  Stddev: 0.005
+Max Memory (KB):
+  Mean: 65673.20
+  Median: 65712.00
+  Stddev: 84.01
+
+solve
+
+Real Time (seconds):
+  Mean: 0.040
+  Median: 0.040
+  Stddev: 0.000
+User Time (seconds):
+  Mean: 0.030
+  Median: 0.030
+  Stddev: 0.000
+System Time (seconds):
+  Mean: 0.006
+  Median: 0.010
+  Stddev: 0.005
+Max Memory (KB):
+  Mean: 33862.00
+  Median: 33864.00
+  Stddev: 115.87
+
+
+100_000
+
+compile
+
+Circom.CLI.encodeBinFile          Circom.CLI               circom-compat/src/Circom/CLI.hs:256:1-13             7.3    5.2
+
+
+Real Time (seconds):
+  Mean: 1.612
+  Median: 1.610
+  Stddev: 0.015
+User Time (seconds):
+  Mean: 1.412
+  Median: 1.405
+  Stddev: 0.023
+System Time (seconds):
+  Mean: 0.192
+  Median: 0.190
+  Stddev: 0.013
+Max Memory (KB):
+  Mean: 593732.80
+  Median: 593776.00
+  Stddev: 89.02
+
+
+solve
+
+Circom.CLI.decodeBinFile         Circom.CLI         circom-compat/src/Circom/CLI.hs:252:1-13       54.5   58.2
+
+Real Time (seconds):
+  Mean: 0.508
+  Median: 0.505
+  Stddev: 0.009
+User Time (seconds):
+  Mean: 0.425
+  Median: 0.420
+  Stddev: 0.016
+System Time (seconds):
+  Mean: 0.077
+  Median: 0.075
+  Stddev: 0.011
+Max Memory (KB):
+  Mean: 251981.20
+  Median: 251950.00
+  Stddev: 66.19
+
+1_000_000
+
+compile
+
+Circom.CLI.encodeBinFile          Circom.CLI               circom-compat/src/Circom/CLI.hs:256:1-13             6.8    5.0
+
+Real Time (seconds):
+  Mean: 20.018
+  Median: 20.015
+  Stddev: 0.194
+User Time (seconds):
+  Mean: 18.210
+  Median: 18.235
+  Stddev: 0.165
+System Time (seconds):
+  Mean: 1.735
+  Median: 1.710
+  Stddev: 0.083
+Max Memory (KB):
+  Mean: 6118164.80
+  Median: 6118116.00
+  Stddev: 97.03
+
+solve
+
+Circom.CLI.decodeBinFile         Circom.CLI         circom-compat/src/Circom/CLI.hs:252:1-13       55.0   57.9
+
+
+Real Time (seconds):
+  Mean: 5.310
+  Median: 5.310
+  Stddev: 0.011
+User Time (seconds):
+  Mean: 4.466
+  Median: 4.465
+  Stddev: 0.029
+System Time (seconds):
+  Mean: 0.836
+  Median: 0.840
+  Stddev: 0.026
+Max Memory (KB):
+  Mean: 2880296.40
+  Median: 2880300.00
+  Stddev: 81.22
+
