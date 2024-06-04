@@ -6,6 +6,8 @@ We present some benchmark results for a simple factorial like program. The circu
 out = start * (start + 1) * ... * (start + (n - 1))
 ```
 
+We are interested in benchmarking the `compile` and `solve` commands for this circuit. In the case of `circom`, the benchmarks are performed against the `c++` generated solver code.
+
 ## Caveats
 This is not an apples-to-apples comparison. It's important to highlight some differences underlying these results that lie outside the respective implementations:
 
