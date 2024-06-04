@@ -32,6 +32,8 @@ This is not an apples-to-apples comparison. It's important to highlight some dif
 
 Asymptotically the two compile phases perform about the same, with a noticable advantage for the ℓ-adic compiler for small `n`. It's possible you could contribute this to the embedded-DSL caveat mentioned above.
 
+### compile memory
+
 <img src="./compile-memory-plot.png"  width="400" height="300">
 
 The max memory footprint plot shows about a constant `2x` memory requirement for the ℓ-adic implementaion. This is about what you would expect given the difference in implementation languages.
@@ -43,8 +45,9 @@ The max memory footprint plot shows about a constant `2x` memory requirement for
 
 The `solve` plot shows that the circom `c++` solver is about 100x faster than the ℓ-adic solver. Some of this is surely attributable to the caveat comments above, but I am not able to comment on the different implementations that could explain more. 
 
-<img src="./solve-memory-plot.png"  width="400" height="300">
+### solve memory
 
+<img src="./solve-memory-plot.png"  width="400" height="300">
 
 The memory plot is a bit more concerning -- the ratio is not a constant multiple but seems to be increasing with `n`. Further work is required in order to bring this back down.
 
