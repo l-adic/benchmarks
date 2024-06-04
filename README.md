@@ -15,7 +15,7 @@ This is not an apples-to-apples comparison. It's important to highlight some dif
 
 1. Circom is not an embedded DSL. This is obvious, but it also means that the `compile` benchmarks include reading the source files, parsing, lexing etc. As `ℓ-adic` circuits are implemented as an embedded DSL, you are skipping this step and constructing the AST directly. I have not benchmarked the circom compiler to determine what kind of difference this makes, but presumably it gets worse for more compilcated programs than the one used in these benchmarks.
    
-2. Haskell has a sophisticated runtime which also includes garbage collection. It is well documented that Rust outperforms Haskell (and most other runtime languages) in terms of memory footprint, so no news here.
+2. Haskell has a sophisticated runtime which also includes garbage collection. It is well documented that Rust outperforms Haskell (and most other runtime languages) in terms of memory footprint, so no news here. Additionally Haskell is lazy, which can make maximum memory footprint even worse unless intentional strictness is use to combat this.
    
 ### solve
 
@@ -49,7 +49,7 @@ The `solve` plot shows that the circom `c++` solver is about 100x faster than th
 
 <img src="./solve-memory-plot.png"  width="400" height="300">
 
-The memory plot is a bit more concerning -- the ratio is not a constant multiple but seems to be increasing with `n`. Further work is required in order to bring this back down.
+The memory plot is a bit more concerning -- the ratio is not a constant multiple but seems to be increasing with `n`. Further work is required in order to bring this back down, but my current guess is that some large lazy thunk is constructed unintentionally.
 
 
 ## Steps to Reproduce
