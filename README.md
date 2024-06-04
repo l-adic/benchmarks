@@ -32,8 +32,6 @@ Asymptotically the two compile phases perform about the same, with a noticable a
 
 <img src="./compile-memory-plot.png"  width="400" height="300">
 
-![compile-memory](./compile-memory-plot.png)
-
 The max memory footprint plot shows about a constant `2x` memory requirement for the ℓ-adic implementaion. This is about what you would expect given the difference in implementation languages.
 
 ### solve
